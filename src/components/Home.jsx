@@ -41,7 +41,7 @@ function Home() {
                     <Logo3d src={logo3d}></Logo3d>
                 </HomeImages>
             </FirstHomeContainer>
-            <ImageContainer><q data-aos="fade-right">Já divulgou sua marca hoje?</q></ImageContainer>
+            <ImageContainer><q data-aos="fade-right">JÁ DIVULGOU SUA MARCA HOJE?</q></ImageContainer>
             <SecondHomeContainer id="logos">
                 <SecondHomeImages>
                     <BackgroundSketch src={backgroundicon}></BackgroundSketch>

@@ -22,7 +22,7 @@ export const gradient = keyframes`
 `;
 
 export const FirstHomeContainer = styled.div`
-    background-image: linear-gradient(-178deg, #000000 91%, #5300bc );
+    //background-image: linear-gradient(-178deg, #000000 91%, #5300bc );
     display:flex;
     justify-content:center;
     align-items:center;
@@ -47,7 +47,7 @@ export const FirstHomeContainer = styled.div`
     @media (max-width: 428px) and (min-width: 375px) {
         flex-direction:column-reverse;
         padding:6rem 1rem 5rem 1rem;
-        background-image: linear-gradient(-178deg, #000000 93%, #5300bc );
+        //background-image: linear-gradient(-178deg, #000000 93%, #5300bc );
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
@@ -165,24 +165,32 @@ export const TextFirstContainer = styled.div`
 `
 
 export const ImageContainer = styled.div`
-    background-image: url(${world});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:center;
+    border-bottom: 0.1px solid #5300bc;
+    border-image: linear-gradient(to right, #000000 20%, #5300bc, #d40073) 1;
+    border-left: 0;
+	border-right: 0;
+	border-top: 0;
+    background-image: linear-gradient(to right, #000000 20%, #5300bc, #d40073) 1;
     min-height:25vh;
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:2.6rem;
+    font-size:3rem;
     letter-spacing:0.1rem;
     opacity:0.9;
 
     & > q {
     font-family:'Rajdhani';
     color:#fff;
-    font-weight:400;
-    text-shadow: 2px 2px 3px #5300bc;
+    font-weight:700;
+    //text-shadow: 2px 2px 3px #5300bc;
+    animation: ${gradient} 3s ease-in-out infinite;
+    background: linear-gradient(to right , #d40073, #5300bc 70%); 
+    -webkit-background-clip: text;
+    background-size:200%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     
     }
 
@@ -206,7 +214,7 @@ export const ImageContainer = styled.div`
 `
 
 export const SecondHomeContainer = styled.div`
-    background-image: linear-gradient(-358deg, #000000 91%, #5300bc );
+    //background-image: linear-gradient(-358deg, #000000 91%, #d40073 );
     display:flex;
     justify-content:center;
     align-items:center;
@@ -230,7 +238,7 @@ export const SecondHomeContainer = styled.div`
     @media (max-width: 428px) and (min-width: 375px) {
         flex-direction:column;
         padding:16rem 1rem 3rem 1rem;
-        background-image: linear-gradient(-358deg, #000000 93%, #5300bc );
+        //background-image: linear-gradient(-358deg, #000000 93%, #5300bc );
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
