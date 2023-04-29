@@ -731,7 +731,7 @@ export const ButtonWeb = styled.button`
 
         span {
             background: linear-gradient(-188deg , #d40073, #5300bc 70%); 
-            -webkit-background-clip: text;
+            -webkit-background-clip: text !important;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             color: transparent;
@@ -768,6 +768,14 @@ export const ButtonWebTwo = styled.button`
         background-clip: content-box, border-box;
         cursor:pointer;
         display:none;
+
+        span {
+            background: linear-gradient(-188deg , #d40073, #5300bc 70%); 
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
 
         @media (max-width: 768px) and (min-width: 590px) {
             margin-top:3rem;

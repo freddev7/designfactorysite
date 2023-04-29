@@ -125,6 +125,9 @@ export const NavItem = styled.li`
 	@media screen and (max-width: 960px) {
 		border-bottom: 0.1px solid #5300bc;
 		border-image: linear-gradient(to left, #111111 30%, #5300bc ,#d40073) 1;
+		border-left: 0;
+		border-right: 0;
+		border-top: 0;
 		margin-left:0rem;
 		width: 100%;
 		&:hover {
