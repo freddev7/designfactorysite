@@ -11,6 +11,9 @@ export const FooterContainer = styled.div`
     align-items:center;
     border-top: 0.1px solid #5300bc;
     border-image: linear-gradient(to right, #000000 60%, #5300bc, #d40073) 1;
+    border-left: 0;
+	border-right: 0;
+	border-top: 0;
 `
 
 export const LogoFooter = styled.img`

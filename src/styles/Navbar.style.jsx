@@ -14,8 +14,11 @@ export const Nav = styled.nav`
 	top: 0;
 	z-index: 50;
 	width: 100%;
-    border-bottom: 0.1px solid #5300bc;
+    border-bottom: 1px solid;
     border-image: linear-gradient(to left, #000000 45%,#5300bc , #d40073 ) 1;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
 `;
 
 export const NavbarContainer = styled.div`

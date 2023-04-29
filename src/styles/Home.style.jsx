@@ -369,6 +369,9 @@ export const CarouselContainer = styled.div`
     white-space:nowrap;
     border-bottom: 0.1px solid #5300bc;
     border-image: linear-gradient(to right, #000000 20%, #5300bc, #d40073) 1;
+    border-left: 0;
+	border-right: 0;
+	border-top: 0;
 `
 
 export const Scroll = keyframes`
@@ -562,6 +565,9 @@ export const FourthHomeContainer = styled.div`
     padding:6rem 6rem 6rem 6rem;
     border-top: 0.1px solid #5300bc;
     border-image: linear-gradient(to left, #000000 40%, #5300bc, #d40073) 1;
+    border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
 
     @media (max-width: 900px) and (min-width: 768px) {
         padding:6rem 2rem 6rem 2rem;
