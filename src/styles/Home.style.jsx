@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import world from "../assets/world.jpg"
 
 export const HomeContainer = styled.div`
     background-color: #000000;
@@ -22,11 +21,10 @@ export const gradient = keyframes`
 `;
 
 export const FirstHomeContainer = styled.div`
-    //background-image: linear-gradient(-178deg, #000000 91%, #5300bc );
     display:flex;
     justify-content:center;
     align-items:center;
-    padding: 9rem 6rem 9rem 6rem;
+    padding: 7rem 6rem 4rem 6rem;
     overflow: hidden;
 
     @media (max-width: 1024px) and (min-width: 768px) {
@@ -41,18 +39,17 @@ export const FirstHomeContainer = styled.div`
 
     @media (max-width: 590px) and (min-width: 428px) {
         flex-direction:column-reverse;
-        padding:6rem 1rem 5rem 1rem;
+        padding:1rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
         flex-direction:column-reverse;
-        padding:6rem 1rem 5rem 1rem;
-        //background-image: linear-gradient(-178deg, #000000 93%, #5300bc );
+        padding:1rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
         flex-direction:column-reverse;
-        padding:6rem 1rem 5rem 1rem;
+        padding:1rem;
     }
 `
 export const Logo3dAnimation = keyframes`
@@ -170,20 +167,17 @@ export const ImageContainer = styled.div`
     border-left: 0;
 	border-right: 0;
 	border-top: 0;
-    background-image: linear-gradient(to right, #000000 20%, #5300bc, #d40073) 1;
     min-height:25vh;
     display:flex;
     align-items:center;
     justify-content:center;
     font-size:3rem;
     letter-spacing:0.1rem;
-    opacity:0.9;
 
     & > q {
     font-family:'Rajdhani';
     color:#fff;
     font-weight:700;
-    //text-shadow: 2px 2px 3px #5300bc;
     animation: ${gradient} 3s ease-in-out infinite;
     background: linear-gradient(to right , #d40073, #5300bc 70%); 
     -webkit-background-clip: text;
@@ -214,7 +208,6 @@ export const ImageContainer = styled.div`
 `
 
 export const SecondHomeContainer = styled.div`
-    //background-image: linear-gradient(-358deg, #000000 91%, #d40073 );
     display:flex;
     justify-content:center;
     align-items:center;
@@ -238,7 +231,7 @@ export const SecondHomeContainer = styled.div`
     @media (max-width: 428px) and (min-width: 375px) {
         flex-direction:column;
         padding:16rem 1rem 3rem 1rem;
-        //background-image: linear-gradient(-358deg, #000000 93%, #5300bc );
+
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
@@ -298,7 +291,7 @@ export const BackgroundSketch = styled.img`
     opacity: 0.4;
     
     @media (max-width: 590px) and (min-width: 428px) {
-        max-width:21rem;
+        max-width:23rem;
         transform: translate(20px);
     }
 
@@ -308,7 +301,7 @@ export const BackgroundSketch = styled.img`
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-        max-width:18rem;
+        max-width:22rem;
         transform: translate(0px);
     }
 `
@@ -603,23 +596,16 @@ export const FourthHomeContainer = styled.div`
 
 `
 
-export const VideoContainer = styled.video`
-    max-width:20rem;
-    border-radius:1rem;
+export const VideoContainer = styled.div`
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 19rem;
 
-    @media (max-width: 590px) and (min-width: 428px) {
-        max-width:18rem;
-    }
-
-    @media (max-width: 428px) and (min-width: 375px) {
+     @media (max-width: 428px) and (min-width: 375px) {
         margin-top:1rem;
     }
-
-     @media (max-width: 375px) and (min-width: 320px) {
-      max-width:16rem;
-    }
-    
-`
+`;
 
 export const BackgroundWebs = styled.img`
     position:absolute;
@@ -642,7 +628,7 @@ export const TextFourthContainer = styled.div`
     font-family: 'Rajdhani';
     display: flex;
     flex-direction: column;
-    padding-left: 7rem;
+    padding-left: 6rem;
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;

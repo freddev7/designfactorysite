@@ -14,12 +14,13 @@ import logo_ff from "../assets/logo_ff.svg"
 import logo_lm from "../assets/logo_lm.svg"
 import backgroundmedias from "../assets/backgroundmedias.svg"
 import backgroundweb from "../assets/backgroundweb.svg"
-import media from "../assets/media.png"
+import media from "../assets/media.jpg"
 import videosite from "../assets/videosite.mp4"
 import { SiAdobeillustrator, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
 import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import ReactPlayer from 'react-player';
 
 import Projects from "./Carousel/Projects"
 
@@ -93,7 +94,16 @@ function Home() {
             </Project>
             <FourthHomeContainer id="web">
                 <SiteContainer>
-                    <VideoContainer src={videosite} autoPlay muted loop></VideoContainer>
+                    <VideoContainer>
+                        <ReactPlayer
+                            url={videosite}
+                            playing={true}
+                            loop={true}
+                            width='100%'
+                            height='100%'
+                            controls={false}
+                        />
+                    </VideoContainer>
                     <ButtonWebTwo>O MEU SALÃO</ButtonWebTwo>
                 </SiteContainer>
                 <TextFourthContainer>
