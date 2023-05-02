@@ -100,6 +100,8 @@ function Home() {
                             width='100%'
                             height='100%'
                             controls={true}
+                            playsinline={true}
+                            config={{ file: { attributes: { playsInline: true, }, }, }}
                         />
                     </VideoContainer>
                     <ButtonWebTwo>O MEU SALÃO</ButtonWebTwo>
