@@ -453,16 +453,16 @@ export const Media = styled.img`
     position:relative;
     
     @media (max-width: 590px) and (min-width: 428px) {
-        max-width:18rem;
+        max-width: 18rem;
         padding-right:0rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-       max-width:17rem;
+        left:1rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-         max-width:16rem;
+         max-width:18rem;
          left:1rem;
     }
 `
@@ -480,16 +480,16 @@ export const BackgroundMedias = styled.img`
 
     @media (max-width: 590px) and (min-width: 428px) {
        left:3rem;
-       max-width:19rem;
+       max-width:20rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-       max-width:19rem;
-       right:5rem;
+       max-width:20rem;
+       right:4rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-         max-width:17rem;
+         max-width:18rem;
          right:4rem;
     }
 
