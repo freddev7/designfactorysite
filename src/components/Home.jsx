@@ -97,11 +97,20 @@ function Home() {
                     <VideoContainer>
                         <ReactPlayer
                             url={videosite}
-                            playing={true}
-                            loop={true}
+                            playing
+                            loop
+                            muted
                             width='100%'
                             height='100%'
-                            controls={false}
+                            config={{
+                                file: {
+                                    attributes: {
+                                        autoPlay: true,
+                                        muted: true,
+                                        loop: true,
+                                    },
+                                },
+                            }}
                         />
                     </VideoContainer>
                     <ButtonWebTwo>O MEU SALÃO</ButtonWebTwo>

@@ -601,11 +601,7 @@ export const VideoContainer = styled.div`
      justify-content: center;
      align-items: center;
      width: 19rem;
-
-     @media (max-width: 428px) and (min-width: 375px) {
-        margin-top:1rem;
-    }
-`;
+`
 
 export const BackgroundWebs = styled.img`
     position:absolute;
