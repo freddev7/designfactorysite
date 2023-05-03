@@ -718,6 +718,10 @@ export const ButtonWeb = styled.button`
         background-origin: border-box;
         background-clip: content-box, border-box;
         cursor:pointer;
+        text-decoration:none;
+        display:flex;
+        align-items:center;
+        justify-content:center;
 
         span {
             background: linear-gradient(-188deg , #d40073, #5300bc 70%); 
@@ -758,6 +762,9 @@ export const ButtonWebTwo = styled.button`
         background-clip: content-box, border-box;
         cursor:pointer;
         display:none;
+        text-decoration:none;
+        align-items:center;
+        justify-content:center;
 
         span {
             background: linear-gradient(-188deg , #d40073, #5300bc 70%); 
@@ -767,28 +774,28 @@ export const ButtonWebTwo = styled.button`
             color: transparent;
         }
 
+
         @media (max-width: 768px) and (min-width: 590px) {
             margin-top:3rem;
             align-self:center;
-            display:block;
+            display:flex;
         }
-
 
         @media (max-width: 590px) and (min-width: 428px) {
             margin-top:3rem;
             align-self:center;
-            display:block;
+            display:flex;
         }
 
         @media (max-width: 428px) and (min-width: 375px) {
             margin-top:3rem;
             align-self:center;
-            display:block;
+            display:flex;
         }
 
         @media (max-width: 375px) and (min-width: 320px) {
             margin-top:3rem;
-            display:block;
+            display:flex;
             align-self:center;
         }   
 `

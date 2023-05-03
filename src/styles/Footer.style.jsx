@@ -6,7 +6,6 @@ export const FooterContainer = styled.div`
     display:flex;
     justify-content:center;
     background-image: linear-gradient(183deg, #000000 83%, #5300bc );
-    color:#5300bc;
     flex-direction:column;
     align-items:center;
     border-top: 0.1px solid #5300bc;
@@ -26,9 +25,9 @@ export const Icons = styled.div`
     right:0.5rem;
     margin-top:2rem;
     font-size:3rem;
-    
 
     & > a {
+        color:#5300bc;
         opacity:0.7;
         margin-left:1rem;
     &:hover {

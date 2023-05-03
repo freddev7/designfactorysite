@@ -35,7 +35,7 @@ function Home() {
             <FirstHomeContainer id="about">
                 <TextFirstContainer>
                     <h1 data-aos="fade-right">Vamos digitalizar o seu negócio!</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" >Ao adotar uma estratégia digital, você poderá expandir seu alcance e tornar seus produtos ou serviços acessíveis a um público muito maior, sem as limitações físicas de um espaço físico. Além disso, ter uma presença forte na internet permite que você se conecte com seus clientes de maneira mais eficiente, através das redes sociais, e-mails e outras plataformas.</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" >Ao adotar uma estratégia digital, você poderá expandir seu alcance e tornar seus produtos ou serviços acessíveis a um público muito maior, sem as limitações de um espaço físico. Além disso, ter uma presença forte na internet permite que você se conecte com seus clientes de maneira mais eficiente, através das redes sociais, e-mails e outras plataformas.</p>
                 </TextFirstContainer>
                 <HomeImages>
                     <BackgroundIcon src={worldicon}></BackgroundIcon>
@@ -104,16 +104,16 @@ function Home() {
                             config={{ file: { attributes: { playsInline: true, }, }, }}
                         />
                     </VideoContainer>
-                    <ButtonWebTwo>O MEU SALÃO</ButtonWebTwo>
+                    <ButtonWebTwo as="a" href="https://www.omeusalao.com.br" target="_blank"><span>O MEU SALÃO</span></ButtonWebTwo>
                 </SiteContainer>
                 <TextFourthContainer>
                     <BackgroundWebs src={backgroundweb} data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"></BackgroundWebs>
                     <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">WEB</h1>
-                    <p data-aos="fade-right">Logotipo é uma representação visual de uma empresa ou marca, que é projetada para ser facilmente reconhecida e lembrada pelo público. Um logotipo eficaz é crucial para a identidade da marca, pois ajuda a transmitir a mensagem da empresa de forma clara e consistente. O logotipo pode ser utilizado em diversos meios de comunicação, desde cartões de visita até propagandas em televisão.</p>
+                    <p data-aos="fade-right">Ter um endereço virtual exclusivo é fundamental para o sucesso do seu negócio na era digital, a apresentação das informações de forma consistente e intuitiva, pode ser um fator determinante na escolha dos usúarios ao optar por um produto ou serviço, transmitindo segurança e bem-estar na hora de tomar a decisão, além de ser um atrativo para o público, a experiência de acesso intensifica a conexão com os seus clientes.</p>
                     <IconsWeb>
                         <i><DiHtml5 /></i><i><DiCss3 /></i><i><DiJsBadge /></i><i><DiReact /></i>
                     </IconsWeb>
-                    <ButtonWeb><span>O MEU SALÃO</span></ButtonWeb>
+                    <ButtonWeb as="a" href="https://www.omeusalao.com.br" target="_blank"><span>O MEU SALÃO</span></ButtonWeb>
                 </TextFourthContainer>
             </FourthHomeContainer>
         </HomeContainer>
