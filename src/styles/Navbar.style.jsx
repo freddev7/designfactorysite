@@ -15,7 +15,7 @@ export const Nav = styled.nav`
 	z-index: 50;
 	width: 100%;
     border-bottom: 1px solid;
-    border-image: linear-gradient(to left, #000000 45%,#5300bc , #d40073 ) 1;
+    border-image: linear-gradient(to left, #000000 50%,#6400e7 , #d40073 ) 1;
 	border-left: 0;
 	border-right: 0;
 	border-top: 0;
@@ -81,7 +81,7 @@ export const MobileIcon = styled.div`
 `;
 
 export const NavMenu = styled.ul`
-	color: #5300bc;
+	color: #6400e7;
     display: flex;
 	align-items: center;
 	list-style: none;
@@ -123,8 +123,8 @@ export const NavItem = styled.li`
 	margin-left:2rem;
 	cursor: pointer;
 	@media screen and (max-width: 960px) {
-		border-bottom: 0.1px solid #5300bc;
-		border-image: linear-gradient(to left, #111111 30%, #5300bc ,#d40073) 1;
+		border-bottom: 0.1px solid #6400e7;
+		border-image: linear-gradient(to left, #111111 40%, #6400e7 ,#d40073) 1;
 		border-left: 0;
 		border-right: 0;
 		border-top: 0;
@@ -137,7 +137,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
-	color: #5300bc;
+	color: #6400e7;
 	display: flex;
 	align-items: center;
 	text-decoration: none;
@@ -145,14 +145,14 @@ export const NavLinks = styled(LinkScroll)`
 	height: 100%;
 	
 	&.active {
-		text-shadow: 0 0 20px #d40073, 0 0 15px #d40073, 0 0 10px #5300bc;
+		text-shadow: 0 0 20px #d40073, 0 0 15px #d40073, 0 0 10px #6400e7;
 		@media screen and (min-width: 960px) {
-			border-bottom: 1px solid #5300bc;
-			border-image: linear-gradient(to left, #000000 , #5300bc) 1;
+			border-bottom: 1px solid #6400e7;
+			border-image: linear-gradient(to left, #000000 , #6400e7) 1;
 		}
 	}
 	&:hover {
-		color: #c8c9d8;
+		color: #c9bcda;
 		transition: all 0.3s ease;
 	}
 	@media screen and (max-width: 960px) {

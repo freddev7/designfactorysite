@@ -5,11 +5,11 @@ export const FooterContainer = styled.div`
     height:16rem;
     display:flex;
     justify-content:center;
-    background-image: linear-gradient(183deg, #000000 83%, #5300bc );
+    background-image: linear-gradient(to bottom, #000000 87%, #6400e7 );
     flex-direction:column;
     align-items:center;
-    border-top: 0.1px solid #5300bc;
-    border-image: linear-gradient(to right, #000000 60%, #5300bc, #d40073) 1;
+    border-top: 0.1px solid #6400e7;
+    border-image: linear-gradient(to right, #000000 60%, #6400e7, #d40073) 1;
     border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
@@ -27,7 +27,7 @@ export const Icons = styled.div`
     font-size:3rem;
 
     & > a {
-        color:#5300bc;
+        color:#6400e7;
         opacity:0.7;
         margin-left:1rem;
     &:hover {

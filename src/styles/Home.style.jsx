@@ -117,14 +117,14 @@ export const BackgroundIcon = styled.img`
 `
 
 export const TextFirstContainer = styled.div`
-    color:#5300bc;
+    color:#6400e7;
     font-size: 1.6rem;
     font-family: 'Rajdhani';
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
         font-weight:500;
-        background: linear-gradient(to right , #d40073, #5300bc 70%); 
+        background: linear-gradient(to right , #d40073, #6400e7 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
@@ -162,8 +162,8 @@ export const TextFirstContainer = styled.div`
 `
 
 export const ImageContainer = styled.div`
-    border-bottom: 0.1px solid #5300bc;
-    border-image: linear-gradient(to right, #000000 20%, #5300bc, #d40073) 1;
+    border-bottom: 0.1px solid #6400e7;
+    border-image: linear-gradient(to right, #000000 30%, #6400e7, #d40073) 1;
     border-left: 0;
 	border-right: 0;
 	border-top: 0;
@@ -179,13 +179,17 @@ export const ImageContainer = styled.div`
     color:#fff;
     font-weight:700;
     animation: ${gradient} 3s ease-in-out infinite;
-    background: linear-gradient(to right , #d40073, #5300bc 70%); 
+    background: linear-gradient(to right , #d40073, #6400e7 70%); 
     -webkit-background-clip: text;
     background-size:200%;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
     
+    }
+
+    @media (max-width: 768px) and (min-width: 590px) {
+        font-size:2.3rem;
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
@@ -307,15 +311,15 @@ export const BackgroundSketch = styled.img`
 `
 
 export const TextSecondContainer = styled.div`
-    color:#5300bc;
+    color:#6400e7;
     font-size: 1.6rem;
     font-family: 'Rajdhani';
-    padding:0rem 3rem 0rem 30rem; 
+    padding:0rem 0rem 0rem 30rem; 
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
         font-weight:500;
-        background: linear-gradient(to right , #d40073, #5300bc 70%); 
+        background: linear-gradient(to right , #d40073, #6400e7 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
@@ -368,8 +372,8 @@ export const CarouselContainer = styled.div`
     overflow:hidden;
     position:relative;
     white-space:nowrap;
-    border-bottom: 0.1px solid #5300bc;
-    border-image: linear-gradient(to right, #000000 20%, #5300bc, #d40073) 1;
+    border-bottom: 0.1px solid #6400e7;
+    border-image: linear-gradient(to right, #000000 30%, #6400e7, #d40073) 1;
     border-left: 0;
 	border-right: 0;
 	border-top: 0;
@@ -496,7 +500,7 @@ export const BackgroundMedias = styled.img`
 `
 
 export const TextThirdContainer = styled.div`
-    color:#5300bc;
+    color:#6400e7;
     font-size: 1.6rem;
     font-family: 'Rajdhani';
     display: flex;
@@ -506,7 +510,7 @@ export const TextThirdContainer = styled.div`
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
         font-weight:500;
-        background: linear-gradient(to right , #d40073, #5300bc 70%); 
+        background: linear-gradient(to right , #d40073, #6400e7 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
@@ -564,8 +568,8 @@ export const FourthHomeContainer = styled.div`
     display:flex;
     align-items:center;
     padding:6rem 6rem 6rem 6rem;
-    border-top: 0.1px solid #5300bc;
-    border-image: linear-gradient(to left, #000000 40%, #5300bc, #d40073) 1;
+    border-top: 0.1px solid #6400e7;
+    border-image: linear-gradient(to left, #000000 50%, #6400e7, #d40073) 1;
     border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
@@ -619,7 +623,7 @@ export const BackgroundWebs = styled.img`
 
 
 export const TextFourthContainer = styled.div`
-    color:#5300bc;
+    color:#6400e7;
     font-size: 1.6rem;
     font-family: 'Rajdhani';
     display: flex;
@@ -629,7 +633,7 @@ export const TextFourthContainer = styled.div`
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
         font-weight:500;
-        background: linear-gradient(to right , #d40073, #5300bc 70%); 
+        background: linear-gradient(to right , #d40073, #6400e7 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
@@ -706,8 +710,8 @@ export const IconsWeb = styled.div`
 `
 
 export const ButtonWeb = styled.button`
-        color: #5300bc;
-        width: 10.6rem;
+        color: #6400e7;
+        width: 10rem;
         height: 2.9rem;
         font-size: 1.3rem;
         font-family: 'Rajdhani';
@@ -724,7 +728,7 @@ export const ButtonWeb = styled.button`
         justify-content:center;
 
         span {
-            background: linear-gradient(-188deg , #d40073, #5300bc 70%); 
+            background: linear-gradient(-188deg , #d40073, #6400e7 70%); 
             -webkit-background-clip: text !important;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -749,15 +753,15 @@ export const ButtonWeb = styled.button`
 `
 
 export const ButtonWebTwo = styled.button`
-        color: #5300bc;
-        width: 10.6rem;
-        height: 3rem;
+        color: #6400e7;
+        width: 10rem;
+        height: 2.9rem;
         font-size: 1.3rem;
         font-family: 'Rajdhani';
         margin-top:1rem;
         border: double 1px transparent;
         border-radius: 0.8rem;
-        background-image: linear-gradient(-188deg, black 50%, #111111), linear-gradient(-198deg , #d40073, #5300bc 70%);
+        background-image: linear-gradient(-188deg, black 50%, #111111), linear-gradient(-198deg , #d40073, #6400e7 70%);
         background-origin: border-box;
         background-clip: content-box, border-box;
         cursor:pointer;
@@ -767,7 +771,7 @@ export const ButtonWebTwo = styled.button`
         justify-content:center;
 
         span {
-            background: linear-gradient(-188deg , #d40073, #5300bc 70%); 
+            background: linear-gradient(-188deg , #d40073, #6400e7 70%); 
             -webkit-background-clip: text !important;
             -webkit-text-fill-color: transparent;
             background-clip: text;

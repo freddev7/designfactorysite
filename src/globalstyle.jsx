@@ -12,11 +12,11 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         .slick-prev:before {
-            color: #5300bc;
+            color: #6400e7;
         }
 
         .slick-next:before {
-            color: #5300bc;
+            color: #6400e7;
         }
     }
 

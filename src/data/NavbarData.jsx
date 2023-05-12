@@ -10,7 +10,7 @@ export const navbarData = [
 		to: 'about',
 	},
 	{
-		text: 'LOGOS',
+		text: 'LOGO',
 		spy: true,
 		duration: 500,
 		smooth: true,
@@ -19,7 +19,7 @@ export const navbarData = [
 		to: 'logos',
 	},
 	{
-		text: 'MEDIAS',
+		text: 'MEDIA',
 		spy: true,
 		duration: 500,
 		smooth: true,

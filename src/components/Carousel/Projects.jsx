@@ -22,6 +22,6 @@ const Container = styled.div`
 `
 
 const Slide = styled.div`
--webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+
 
 `

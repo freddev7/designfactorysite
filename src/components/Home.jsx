@@ -35,7 +35,7 @@ function Home() {
             <FirstHomeContainer id="about">
                 <TextFirstContainer>
                     <h1 data-aos="fade-right">Vamos digitalizar o seu negócio!</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" >Ao adotar uma estratégia digital, você poderá expandir seu alcance e tornar seus produtos ou serviços acessíveis a um público muito maior, sem as limitações de um espaço físico. Além disso, ter uma presença forte na internet permite que você se conecte com seus clientes de maneira mais eficiente, através das redes sociais, e-mails e outras plataformas.</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" >Adotar uma estratégia digital, poderá expandir seu alcance e tornar seus produtos ou serviços acessíveis a um público muito maior, ter uma presença forte na internet é essencial e permite que você se conecte com seus clientes de maneira mais eficiente.</p>
                 </TextFirstContainer>
                 <HomeImages>
                     <BackgroundIcon src={worldicon}></BackgroundIcon>
@@ -49,8 +49,8 @@ function Home() {
                     <Logo src={logossection} data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></Logo>
                 </SecondHomeImages>
                 <TextSecondContainer>
-                    <h1 data-aos="fade-right">LOGOS</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">Logotipo é uma representação visual de uma empresa ou marca, que é projetada para ser facilmente reconhecida e lembrada pelo público. Um logotipo eficaz é crucial para a identidade da marca, pois ajuda a transmitir a mensagem da empresa de forma clara e consistente. O logotipo pode ser utilizado em diversos meios de comunicação, desde cartões de visita até propagandas em televisão.</p>
+                    <h1 data-aos="fade-right">LOGO</h1>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">É a representação visual de uma empresa ou marca, projetada para ser facilmente reconhecida e lembrada. Utilizada em diversos meios de comunicação, desde cartões de visita até propagandas em televisão.</p>
                     <i><SiAdobeillustrator /></i>
                 </TextSecondContainer>
             </SecondHomeContainer>
@@ -78,8 +78,8 @@ function Home() {
             </CarouselContainer>
             <ThirdHomeContainer id="medias">
                 <TextThirdContainer>
-                    <h1 data-aos="fade-right">MEDIAS</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">A arte visual para mídias sociais é um aspecto fundamental de qualquer estratégia de marketing digital. Afinal, a aparência da sua marca nas plataformas de mídia social pode impactar a percepção do seu público-alvo sobre o seu negócio. Ao criar arte visual para mídias sociais, é importante considerar alguns fatores importantes. Primeiro, a arte visual deve ser consistente com a identidade visual da sua marca, como as cores, fontes e estilos de design que você usa em outros lugares, como seu site e materiais de marketing impressos.</p>
+                    <h1 data-aos="fade-right">MEDIA</h1>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">A aparência da empresa nas mídias sociais pode impactar a percepção do público-alvo sobre o negócio. As cores, fontes e layouts devem ser consistentes com a identidade visual e materiais de marketing.</p>
                     <Icons>
                         <a><SiAdobephotoshop /></a><a><SiAdobeaftereffects /></a>
                     </Icons>
@@ -109,7 +109,7 @@ function Home() {
                 <TextFourthContainer>
                     <BackgroundWebs src={backgroundweb} data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"></BackgroundWebs>
                     <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">WEB</h1>
-                    <p data-aos="fade-right">Ter um endereço virtual exclusivo é fundamental para o sucesso do seu negócio na era digital, a apresentação das informações de forma consistente e intuitiva, pode ser um fator determinante na escolha dos usúarios ao optar por um produto ou serviço, transmitindo segurança e bem-estar na hora de tomar a decisão, além de ser um atrativo para o público, a experiência de acesso intensifica a conexão com os seus clientes.</p>
+                    <p data-aos="fade-right">Apresentar as informações do seu negócio na web, pode ser um fator determinante na escolha dos usúarios por um produto ou serviço, além de ser atrativo, a experiência de acesso intensifica a conexão com os seus clientes.</p>
                     <IconsWeb>
                         <i><DiHtml5 /></i><i><DiCss3 /></i><i><DiJsBadge /></i><i><DiReact /></i>
                     </IconsWeb>
