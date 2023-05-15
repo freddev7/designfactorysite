@@ -24,7 +24,7 @@ export const Icons = styled.div`
     position: relative;
     right:0.5rem;
     margin-top:2rem;
-    font-size:3rem;
+    font-size:2.7rem;
 
     & > a {
         color:#6400e7;

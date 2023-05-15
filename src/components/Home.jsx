@@ -35,7 +35,7 @@ function Home() {
             <FirstHomeContainer id="about">
                 <TextFirstContainer>
                     <h1 data-aos="fade-right">Vamos digitalizar o seu negócio!</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" >Adotar uma estratégia digital, poderá expandir seu alcance e tornar seus produtos ou serviços acessíveis a um público muito maior, ter uma presença forte na internet é essencial e permite que você se conecte com seus clientes de maneira mais eficiente.</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" >Adotar uma estratégia digital, poderá expandir seu alcance e tornar seus produtos ou serviços mais acessíveis, presença forte na internet é essencial para se conectar de maneira eficiente.</p>
                 </TextFirstContainer>
                 <HomeImages>
                     <BackgroundIcon src={worldicon}></BackgroundIcon>
@@ -50,7 +50,7 @@ function Home() {
                 </SecondHomeImages>
                 <TextSecondContainer>
                     <h1 data-aos="fade-right">LOGO</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">É a representação visual de uma empresa ou marca, projetada para ser facilmente reconhecida e lembrada. Utilizada em diversos meios de comunicação, desde cartões de visita até propagandas em televisão.</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">Representação visual de uma empresa ou marca, projetada para ser facilmente reconhecida e lembrada. Utilizada em diversos meios de comunicação, desde cartões de visita até propagandas em televisão.</p>
                     <i><SiAdobeillustrator /></i>
                 </TextSecondContainer>
             </SecondHomeContainer>
@@ -79,7 +79,7 @@ function Home() {
             <ThirdHomeContainer id="medias">
                 <TextThirdContainer>
                     <h1 data-aos="fade-right">MEDIA</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">A aparência da empresa nas mídias sociais pode impactar a percepção do público-alvo sobre o negócio. As cores, fontes e layouts devem ser consistentes com a identidade visual e materiais de marketing.</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">A aparência da empresa nas mídias sociais pode impactar a percepção do público-alvo. As cores, fontes e layouts devem ser consistentes com a identidade visual e materiais de marketing.</p>
                     <Icons>
                         <a><SiAdobephotoshop /></a><a><SiAdobeaftereffects /></a>
                     </Icons>
@@ -109,7 +109,7 @@ function Home() {
                 <TextFourthContainer>
                     <BackgroundWebs src={backgroundweb} data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"></BackgroundWebs>
                     <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">WEB</h1>
-                    <p data-aos="fade-right">Apresentar as informações do seu negócio na web, pode ser um fator determinante na escolha dos usúarios por um produto ou serviço, além de ser atrativo, a experiência de acesso intensifica a conexão com os seus clientes.</p>
+                    <p data-aos="fade-right">Fornecer informações do seu negócio na web, pode influenciar diretamente na escolha dos usúarios, além de ser atrativo, a experiência de acesso intensifica a conexão com os seus clientes.</p>
                     <IconsWeb>
                         <i><DiHtml5 /></i><i><DiCss3 /></i><i><DiJsBadge /></i><i><DiReact /></i>
                     </IconsWeb>

@@ -120,6 +120,7 @@ export const TextFirstContainer = styled.div`
     color:#6400e7;
     font-size: 1.6rem;
     font-family: 'Rajdhani';
+    
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
@@ -136,7 +137,9 @@ export const TextFirstContainer = styled.div`
         margin-top: 1rem;
         font-weight:300;
         line-height:2rem;
+    
     }
+    
     @media (max-width: 1024px) and (min-width: 768px) {
         margin-top:2rem;
     }
@@ -146,18 +149,15 @@ export const TextFirstContainer = styled.div`
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
-        font-size:1.3rem;
-        margin-top:2rem;
+        font-size:1.4rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-        font-size:1.3rem;
-        margin-top:3rem;
+        font-size:1.4rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-        font-size:1.2rem;
-        margin-top:3rem;
+        font-size:1.4rem;
     }
 `
 
@@ -335,7 +335,7 @@ export const TextSecondContainer = styled.div`
     }
 
     & > i {
-        font-size:3rem;
+        font-size:2.7rem;
         opacity:0.7;
             &:hover {
         opacity: 100%;
@@ -352,18 +352,18 @@ export const TextSecondContainer = styled.div`
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
-        font-size:1.3rem;
+        font-size:1.4rem;
         padding:13rem 0rem 5rem 0rem;
 
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-        font-size:1.3rem;
+        font-size:1.4rem;
         padding:13rem 0rem 0rem 0rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-        font-size:1.3rem;
+        font-size:1.4rem;
         padding:13rem 0rem 0rem 0rem;
     }
 `
@@ -479,22 +479,23 @@ export const BackgroundMedias = styled.img`
 
     @media (max-width: 768px) and (min-width: 590px) {
         right:16rem;
-        max-width:20rem;
+        height:100%;
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
-       left:3rem;
-       max-width:20rem;
+       left:2rem;
+       height:100%;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-       max-width:20rem;
-       right:4rem;
+       height:100%;
+       right:3rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
          max-width:18rem;
          right:4rem;
+         height:100%;
     }
 
 `
@@ -526,19 +527,19 @@ export const TextThirdContainer = styled.div`
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
-        font-size:1.3rem;
+        font-size:1.4rem;
         padding-right:0rem;
         padding-bottom:3rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-        font-size:1.3rem;
+        font-size:1.4rem;
         padding-right:0rem;
         padding-bottom:3rem;
     }
     
     @media (max-width: 375px) and (min-width: 320px) {
-        font-size:1.2rem;
+        font-size:1.4rem;
         padding-right:0rem;
         padding-bottom:3rem;
     }
@@ -547,8 +548,8 @@ export const TextThirdContainer = styled.div`
 
 export const Icons = styled.div`
     display:flex;
-    margin-top:3rem;
-    font-size:3rem;
+    margin-top:2rem;
+    font-size:2.7rem;
 
     & > a {
         opacity:0.7;
@@ -612,8 +613,20 @@ export const BackgroundWebs = styled.img`
     max-width:31rem;
     align-self:flex-end;
 
+    @media (max-width: 900px) and (min-width: 768px) {
+        max-width:20rem;
+    }
+
+    @media (max-width: 768px) and (min-width: 590px) {
+        max-width:19rem;
+    }
+
+    @media (max-width: 590px) and (min-width: 428px) {
+       max-width:19rem;
+    }
+
     @media (max-width: 428px) and (min-width: 375px) {
-        max-width:22rem;
+        max-width:19rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
@@ -623,12 +636,12 @@ export const BackgroundWebs = styled.img`
 
 
 export const TextFourthContainer = styled.div`
-    color:#6400e7;
+    color:#6f00ff;
     font-size: 1.6rem;
     font-family: 'Rajdhani';
     display: flex;
     flex-direction: column;
-    padding-left: 6rem;
+    padding-left: 4rem;
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
@@ -657,18 +670,18 @@ export const TextFourthContainer = styled.div`
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
-        font-size:1.3rem;
+        font-size:1.4rem;
         padding-left:0rem;
         padding-bottom:2rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-       font-size:1.3rem;
+       font-size:1.4rem;
        padding-left:0rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-       font-size:1.2rem;
+       font-size:1.4rem;
        padding-left:0rem;
     }
 
@@ -678,19 +691,19 @@ export const IconsWeb = styled.div`
     display:flex;
     align-items:center;
     margin-right:1rem;
-    margin-top:3rem;
-    font-size:3rem;
+    margin-top:2rem;
+    font-size:2.7rem;
 
     & > i {
         opacity:0.7;
         
 
     &:nth-child(1) {
-        font-size:4rem;
+        font-size:3.7rem;
     }  
     
     &:nth-child(2) {
-        font-size:4rem;
+        font-size:3.7rem;
     }
 
     &:nth-child(3) {
@@ -699,7 +712,7 @@ export const IconsWeb = styled.div`
     }
     
     &:nth-child(4) {
-        font-size:4rem;
+        font-size:3.7rem;
         margin-left:0.6rem;
     }  
 
