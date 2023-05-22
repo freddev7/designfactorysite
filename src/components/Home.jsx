@@ -34,8 +34,8 @@ function Home() {
         <HomeContainer>
             <FirstHomeContainer id="about">
                 <TextFirstContainer>
-                    <h1 data-aos="fade-right">Vamos digitalizar o seu negócio!</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" >Adotar uma estratégia digital, poderá expandir seu alcance e tornar seus produtos ou serviços mais acessíveis, presença forte na internet é essencial para se conectar de maneira eficiente.</p>
+                    <h1 data-aos="fade-down">Vamos digitalizar o seu negócio!</h1>
+                    <p data-aos="fade-right" >Adotar uma estratégia digital, poderá expandir seu alcance e tornar seus produtos ou serviços mais acessíveis, presença forte na internet é essencial para se conectar de maneira eficiente.</p>
                 </TextFirstContainer>
                 <HomeImages>
                     <BackgroundIcon src={worldicon}></BackgroundIcon>
