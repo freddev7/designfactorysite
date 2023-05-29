@@ -229,18 +229,18 @@ export const SecondHomeContainer = styled.div`
 
     @media (max-width: 590px) and (min-width: 428px) {
         flex-direction:column;
-        padding:14rem 1rem 0rem 1rem;
+        padding:13rem 1rem 0rem 1rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
         flex-direction:column;
-        padding:14rem 1rem 3rem 1rem;
+        padding:13rem 1rem 3rem 1rem;
 
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
         flex-direction:column;
-        padding:14rem 1rem 3rem 1rem;
+        padding:13rem 1rem 3rem 1rem;
     }
 `
 
