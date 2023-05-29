@@ -215,7 +215,7 @@ export const SecondHomeContainer = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:11rem 6rem 9rem 6rem;
+    padding:9rem 6rem 9rem 6rem;
 
     @media (max-width: 1024px) and (min-width: 768px) {
         flex-direction:column;
@@ -229,18 +229,18 @@ export const SecondHomeContainer = styled.div`
 
     @media (max-width: 590px) and (min-width: 428px) {
         flex-direction:column;
-        padding:16rem 1rem 0rem 1rem;
+        padding:14rem 1rem 0rem 1rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
         flex-direction:column;
-        padding:16rem 1rem 3rem 1rem;
+        padding:14rem 1rem 3rem 1rem;
 
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
         flex-direction:column;
-        padding:16rem 1rem 3rem 1rem;
+        padding:14rem 1rem 3rem 1rem;
     }
 `
 
@@ -270,42 +270,42 @@ export const SecondHomeImages = styled.div`
 `
 
 export const Logo = styled.img`
-    max-width: 23rem;
+    max-width: 22rem;
     height: auto;
     position:absolute;
     
     @media (max-width: 590px) and (min-width: 428px) {
-        max-width:18rem;
+        max-width:17rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-        max-width:18rem;
+        max-width:17rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-        max-width:17rem;
+        max-width:16rem;
     }
 `
 
 export const BackgroundSketch = styled.img`
-    max-width:29rem;
+    max-width:27rem;
     height:auto;
     transform: translate(50px);
     position:absolute;
     opacity: 0.4;
     
     @media (max-width: 590px) and (min-width: 428px) {
-        max-width:23rem;
+        max-width:21rem;
         transform: translate(20px);
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
-        max-width:21rem;
+        max-width:18rem;
         transform: translate(10px);
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-        max-width:22rem;
+        max-width:19rem;
         transform: translate(0px);
     }
 `
@@ -344,27 +344,27 @@ export const TextSecondContainer = styled.div`
     }
 
     @media (max-width: 1024px) and (min-width: 768px) {
-        padding:13rem 0rem 5rem 0rem;
+        padding:11rem 0rem 5rem 0rem;
     }
 
     @media (max-width: 768px) and (min-width: 590px) {
-        padding: 13rem 0rem 5rem 0rem;
+        padding: 11rem 0rem 5rem 0rem;
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
         font-size:1.4rem;
-        padding:13rem 0rem 5rem 0rem;
+        padding:11rem 0rem 5rem 0rem;
 
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
         font-size:1.4rem;
-        padding:13rem 0rem 0rem 0rem;
+        padding:11rem 0rem 0rem 0rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
         font-size:1.4rem;
-        padding:13rem 0rem 0rem 0rem;
+        padding:11rem 0rem 0rem 0rem;
     }
 `
 
@@ -431,17 +431,17 @@ export const ThirdHomeContainer = styled.div`
 
     @media (max-width: 590px) and (min-width: 428px) {
         flex-direction:column;
-        padding:3rem 1rem 5rem 1rem;
+        padding:2rem 1rem 5rem 1rem;
     }
 
     @media (max-width: 428px) and (min-width: 375px) {
         flex-direction:column;
-        padding:3rem 1rem 5rem 1rem;
+        padding:2rem 1rem 5rem 1rem;
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
         flex-direction:column;
-        padding:3rem 1rem 5rem 1rem;
+        padding:2rem 1rem 5rem 1rem;
     }
 `
 

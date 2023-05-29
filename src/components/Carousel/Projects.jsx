@@ -18,7 +18,7 @@ const Container = styled.div`
     width: 80%;
     max-width:1280px;
     margin:0 auto;
-    padding:0rem 0rem 6rem 0rem;
+    padding:0rem 0rem 4rem 0rem;
 `
 
 const Slide = styled.div`

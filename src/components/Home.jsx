@@ -35,7 +35,7 @@ function Home() {
             <FirstHomeContainer id="about">
                 <TextFirstContainer>
                     <h1 data-aos="fade-down">Vamos digitalizar o seu negócio!</h1>
-                    <p data-aos="fade-right" >Adotar uma estratégia digital, poderá expandir seu alcance e tornar seus produtos ou serviços mais acessíveis, presença forte na internet é essencial para se conectar de maneira eficiente.</p>
+                    <p data-aos="fade-right" >Adotar uma estratégia digital, poderá expandir o alcance e a visibilidade do seu negócio, tornando os produtos ou serviços mais acessíveis, através de conteúdos respectivamente essenciais disponibilizados na internet, transmitindo as informações de maneira eficiente.</p>
                 </TextFirstContainer>
                 <HomeImages>
                     <BackgroundIcon src={worldicon}></BackgroundIcon>
@@ -79,7 +79,7 @@ function Home() {
             <ThirdHomeContainer id="medias">
                 <TextThirdContainer>
                     <h1 data-aos="fade-right">MEDIA</h1>
-                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">A aparência da empresa nas mídias sociais pode impactar a percepção do público-alvo. As cores, fontes e layouts devem ser consistentes com a identidade visual e materiais de marketing.</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">A aparência/imagem da empresa nas mídias sociais pode impactar a percepção do público-alvo. Os layouts, cores e fontes devem ser consistentes com a identidade visual e materiais de marketing.</p>
                     <Icons>
                         <a><SiAdobephotoshop /></a><a><SiAdobeaftereffects /></a>
                     </Icons>
