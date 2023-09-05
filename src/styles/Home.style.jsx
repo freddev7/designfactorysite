@@ -120,9 +120,9 @@ export const BackgroundIcon = styled.img`
 export const TextFirstContainer = styled.div`
     color:#6400e7;
     font-size: 1.6rem;
-    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
 
     & > h1 {
+        font-family: objektiv-mk1, sans-serif;
         animation: ${gradient} 3s ease-in-out infinite;
         background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
         -webkit-background-clip: text;
@@ -138,6 +138,7 @@ export const TextFirstContainer = styled.div`
     }
 
     & > p {
+        font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
         margin-top: 1rem;
         font-weight:400;
         line-height:2rem;
@@ -180,7 +181,7 @@ export const ImageContainer = styled.div`
     background: linear-gradient(350deg, rgba(212, 0, 255, 0.192) , #000000 44% );
 
     & > h1 {
-    font-family:EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
+    font-family: objektiv-mk1, sans-serif;
     font-weight:900;
     animation: ${gradient} 3s ease-in-out infinite;
     background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%);  
@@ -323,10 +324,10 @@ export const BackgroundSketch = styled.img`
 export const TextSecondContainer = styled.div`
     color:#6400e7;
     font-size: 1.6rem;
-    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     padding:0rem 0rem 0rem 30rem; 
 
     & > h1 {
+        font-family: objektiv-mk1, sans-serif;
         animation: ${gradient} 3s ease-in-out infinite;
         font-weight:900;
         background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
@@ -346,6 +347,7 @@ export const TextSecondContainer = styled.div`
         margin-bottom: 2rem;
         font-size: 1.4rem;
         color: hsla(2,0%,100%,.5);
+        font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     }
 
     & > i {
@@ -522,12 +524,12 @@ export const BackgroundMedias = styled.img`
 export const TextThirdContainer = styled.div`
     color:#6400e7;
     font-size: 1.6rem;
-    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     display: flex;
     flex-direction: column;
     padding-right: 4rem;
 
     & > h1 {
+        font-family: objektiv-mk1, sans-serif;
         animation: ${gradient} 3s ease-in-out infinite;
         font-weight:900;
         background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
@@ -541,6 +543,7 @@ export const TextThirdContainer = styled.div`
     }
 
     & > p {
+        font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
         margin-top: 1rem;
         font-weight: 400;
         font-size: 1.4rem;
@@ -666,12 +669,12 @@ export const BackgroundWebs = styled.img`
 export const TextFourthContainer = styled.div`
     color:#6f00ff;
     font-size: 1.6rem;
-    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     display: flex;
     flex-direction: column;
     padding-left: 4rem;
 
     & > h1 {
+        font-family: objektiv-mk1, sans-serif;
         animation: ${gradient} 3s ease-in-out infinite;
         font-weight:900;
         background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
@@ -685,6 +688,7 @@ export const TextFourthContainer = styled.div`
     }
 
     & > p {
+        font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
         margin-top: 1rem;
         font-weight:400;
         font-size: 1.4rem;
