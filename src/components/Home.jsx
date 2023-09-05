@@ -15,7 +15,7 @@ import logo_lm from "../assets/logo_lm.svg"
 import backgroundmedias from "../assets/backgroundmedias.svg"
 import backgroundweb from "../assets/backgroundweb.svg"
 import media from "../assets/media.jpg"
-import webvideo from "../assets/webvideo.mp4"
+import webvideobranding from "../assets/webvideobranding.mp4"
 import { SiAdobeillustrator, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
 import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
 import Aos from 'aos'
@@ -96,7 +96,7 @@ function Home() {
                 <SiteContainer>
                     <VideoContainer>
                         <ReactPlayer
-                            url={webvideo}
+                            url={webvideobranding}
                             width='100%'
                             height='100%'
                             controls={true}
