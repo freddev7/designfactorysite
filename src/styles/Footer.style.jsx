@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
+
+export const FooterContent= styled.div`
+    background-color: #000000;
+`;
+
 export const FooterContainer = styled.div`
-    width:100%;
-    height:16rem;
     display:flex;
     justify-content:center;
-    background-image: linear-gradient(to bottom, #000000 87%, #6400e7 );
     flex-direction:column;
     align-items:center;
     border-top: 0.1px solid #6400e7;
@@ -13,10 +15,12 @@ export const FooterContainer = styled.div`
     border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
+    padding:3rem 0rem 1rem 0rem;
+    background: linear-gradient(360deg, rgba(212, 0, 255, 0.192) , #000000 46% );
 `
 
 export const LogoFooter = styled.img`
-    max-width:8rem;
+    max-width:6rem;
 `
 
 export const Icons = styled.div`

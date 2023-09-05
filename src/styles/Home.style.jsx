@@ -20,21 +20,22 @@ export const gradient = keyframes`
 }
 `;
 
+
 export const FirstHomeContainer = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    padding: 7rem 6rem 4rem 6rem;
-    overflow: hidden;
+    padding: 7rem 4rem 4rem 4rem;
+    background: radial-gradient(circle at top left, rgba(212, 0, 255, 0.192) , #000000 30%);
 
     @media (max-width: 1024px) and (min-width: 768px) {
         flex-direction:column-reverse;
-        padding: 9rem 3rem 9rem 3rem;
+        padding: 7rem 3rem 0rem 3rem;
     }
 
     @media (max-width: 768px) and (min-width: 590px) {
         flex-direction:column-reverse;
-        padding: 9rem 3rem 9rem 3rem;
+        padding: 7rem 3rem 0rem 3rem;
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
@@ -54,9 +55,9 @@ export const FirstHomeContainer = styled.div`
 `
 export const Logo3dAnimation = keyframes`
     0% { transform: translate(0%); }
-    25% { transform: translateY(7%); }
+    25% { transform: translateY(11%); }
     50% { transform: translate(0%); }
-    75% { transform: translate(-5%); }
+    75% { transform: translate(-11%); }
     100% { transform: translate(0%); }
 `
 
@@ -73,7 +74,7 @@ export const HomeImages = styled.div`
 export const Logo3d = styled.img`
     width: 29rem;
     height: 21rem;
-    animation: ${Logo3dAnimation} 3s linear infinite;
+    animation: ${Logo3dAnimation} 5s linear infinite;
 
     @media (max-width: 590px) and (min-width: 428px) {
         width:21rem;
@@ -91,7 +92,7 @@ export const Logo3d = styled.img`
 export const BackgroundIcon = styled.img`
     max-width: 30rem;
     height: auto;
-    opacity: 0.4; 
+    opacity: 0.5; 
     position:absolute;
     transform: translate(-120px);
 
@@ -119,33 +120,37 @@ export const BackgroundIcon = styled.img`
 export const TextFirstContainer = styled.div`
     color:#6400e7;
     font-size: 1.6rem;
-    font-family: 'Rajdhani';
-    
+    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
-        font-weight:500;
-        background: linear-gradient(to right , #d40073, #6400e7 70%); 
+        background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         color: transparent;
+        font-weight:900;
+        text-transform: uppercase;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(212, 0, 255, 0.555);
+
     }
 
     & > p {
         margin-top: 1rem;
-        font-weight:300;
+        font-weight:400;
         line-height:2rem;
-    
+        font-size: 1.4rem;
+        color: hsla(2,0%,100%,.5);
     }
     
     @media (max-width: 1024px) and (min-width: 768px) {
-        margin-top:2rem;
+        margin-top:3rem;
     }
 
     @media (max-width: 768px) and (min-width: 590px) {
-        margin-top:2rem;
+        margin-top:3rem;
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
@@ -167,46 +172,50 @@ export const ImageContainer = styled.div`
     border-left: 0;
 	border-right: 0;
 	border-top: 0;
-    min-height:25vh;
+    padding:3rem 0rem 3rem 0rem;
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:3rem;
-    letter-spacing:0.1rem;
+    font-size:1.2rem;
+    background: linear-gradient(350deg, rgba(212, 0, 255, 0.192) , #000000 44% );
 
-    & > q {
-    font-family:'Rajdhani';
-    color:#fff;
-    font-weight:700;
+    & > h1 {
+    font-family:EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
+    font-weight:900;
     animation: ${gradient} 3s ease-in-out infinite;
-    background: linear-gradient(to right , #d40073, #6400e7 70%); 
+    background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%);  
     -webkit-background-clip: text;
     background-size:200%;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(212, 0, 255, 0.555);
+    text-align: center;
     
     }
 
     @media (max-width: 768px) and (min-width: 590px) {
-        font-size:2.3rem;
+        font-size:1rem;
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
-        font-size:1.7rem;
+        font-size:1rem;
         text-align:center;
-        min-height:20vh;
         background-position: 30% 40%;
+        background: linear-gradient(350deg, rgba(212, 0, 255, 0.192) , #000000 34% );
     }
 
-    @media (max-width: 428px) and (min-width: 375px) {
-        font-size:1.5rem;
-        min-height:16vh;
+    @media (max-width: 428px) and (min-width: 376px) {
+        font-size:1rem;
+        padding:2rem 0rem 3rem 0rem;
+        background: linear-gradient(350deg, rgba(212, 0, 255, 0.192) , #000000 34% );
     }
 
     @media (max-width: 375px) and (min-width: 320px) {
-        font-size:1.3rem;
-        min-height:18vh;
+        font-size:1rem;
+        padding:2rem 0rem 3rem 0rem;
+        background: linear-gradient(350deg, rgba(212, 0, 255, 0.192) , #000000 34% );
     }
 
 `
@@ -216,6 +225,7 @@ export const SecondHomeContainer = styled.div`
     justify-content:center;
     align-items:center;
     padding:9rem 6rem 9rem 6rem;
+    background: radial-gradient(circle at top right, rgba(212, 0, 255, 0.192) , #000000 30%);
 
     @media (max-width: 1024px) and (min-width: 768px) {
         flex-direction:column;
@@ -292,7 +302,7 @@ export const BackgroundSketch = styled.img`
     height:auto;
     transform: translate(50px);
     position:absolute;
-    opacity: 0.4;
+    opacity: 0.5;
     
     @media (max-width: 590px) and (min-width: 428px) {
         max-width:21rem;
@@ -313,25 +323,29 @@ export const BackgroundSketch = styled.img`
 export const TextSecondContainer = styled.div`
     color:#6400e7;
     font-size: 1.6rem;
-    font-family: 'Rajdhani';
+    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     padding:0rem 0rem 0rem 30rem; 
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
-        font-weight:500;
-        background: linear-gradient(to right , #d40073, #6400e7 70%); 
+        font-weight:900;
+        background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(212, 0, 255, 0.555);
     }
 
     & > p {
         margin-top: 1rem;
-        font-weight:300;
+        font-weight:400;
         line-height:2rem;
         margin-bottom: 2rem;
+        font-size: 1.4rem;
+        color: hsla(2,0%,100%,.5);
     }
 
     & > i {
@@ -373,7 +387,7 @@ export const CarouselContainer = styled.div`
     position:relative;
     white-space:nowrap;
     border-bottom: 0.1px solid #6400e7;
-    border-image: linear-gradient(to right, #000000 30%, #6400e7, #d40073) 1;
+    border-image: linear-gradient(to left, #000000 30%, #6400e7, #d40073) 1;
     border-left: 0;
 	border-right: 0;
 	border-top: 0;
@@ -413,12 +427,16 @@ export const ItemCarousel = styled.img`
 `
 
 export const ThirdHomeContainer = styled.div`
-    background-color: #000000;
+    background: radial-gradient(circle at top left, rgba(212, 0, 255, 0.192) , #000000 30%);
     display:flex;
     align-items:center;
     justify-content:center;
     padding:6rem 6rem 6rem 6rem;
     overflow: hidden;
+
+    @media (max-width: 1024px) and (min-width: 901px) {
+        padding:6rem 3rem 6rem 3rem;
+    }
 
     @media (max-width: 900px) and (min-width: 768px) {
         padding:6rem 2rem 6rem 2rem;
@@ -475,6 +493,7 @@ export const BackgroundMedias = styled.img`
     max-width: 20rem;
     height:auto;
     right:10rem;
+    opacity: 0.5; 
     position:absolute;
 
     @media (max-width: 768px) and (min-width: 590px) {
@@ -503,27 +522,30 @@ export const BackgroundMedias = styled.img`
 export const TextThirdContainer = styled.div`
     color:#6400e7;
     font-size: 1.6rem;
-    font-family: 'Rajdhani';
+    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     display: flex;
     flex-direction: column;
     padding-right: 4rem;
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
-        font-weight:500;
-        background: linear-gradient(to right , #d40073, #6400e7 70%); 
+        font-weight:900;
+        background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         color: transparent;
-        
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(212, 0, 255, 0.555);
     }
 
     & > p {
         margin-top: 1rem;
-        font-weight:300;
-        line-height:2rem;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        color: hsla(2,0%,100%,.5);
     }
 
     @media (max-width: 590px) and (min-width: 428px) {
@@ -565,16 +587,20 @@ export const Project = styled.div`
 `
 
 export const FourthHomeContainer = styled.div`
-    background-color: #000000;
+    background: radial-gradient(circle at top right, rgba(212, 0, 255, 0.192) , #000000 30%);
     display:flex;
     align-items:center;
     padding:6rem 6rem 6rem 6rem;
     border-top: 0.1px solid #6400e7;
-    border-image: linear-gradient(to left, #000000 50%, #6400e7, #d40073) 1;
+    border-image: linear-gradient(to right, #000000 50%, #6400e7, #d40073) 1;
     border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
 
+    @media (max-width: 1024px) and (min-width: 901px) {
+        padding:6rem 2rem 6rem 2rem;
+    }
+    
     @media (max-width: 900px) and (min-width: 768px) {
         padding:6rem 2rem 6rem 2rem;
     }
@@ -606,12 +632,14 @@ export const VideoContainer = styled.div`
      justify-content: center;
      align-items: center;
      width: 19rem;
+     border-radius:2rem;
 `
 
 export const BackgroundWebs = styled.img`
     position:absolute;
     max-width:31rem;
     align-self:flex-end;
+    z-index:1;
 
     @media (max-width: 900px) and (min-width: 768px) {
         max-width:20rem;
@@ -638,27 +666,30 @@ export const BackgroundWebs = styled.img`
 export const TextFourthContainer = styled.div`
     color:#6f00ff;
     font-size: 1.6rem;
-    font-family: 'Rajdhani';
+    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     display: flex;
     flex-direction: column;
     padding-left: 4rem;
 
     & > h1 {
         animation: ${gradient} 3s ease-in-out infinite;
-        font-weight:500;
-        background: linear-gradient(to right , #d40073, #6400e7 70%); 
+        font-weight:900;
+        background: linear-gradient(to right , rgba(212, 0, 255, 0.555), rgba(255, 0, 207, 0.6), rgba(0, 133, 174, 0.116) 70%); 
         -webkit-background-clip: text;
         background-size:200%;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         color: transparent;
-        
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(212, 0, 255, 0.555);
     }
 
     & > p {
         margin-top: 1rem;
-        font-weight:300;
+        font-weight:400;
+        font-size: 1.4rem;
         line-height:2rem;
+        color: hsla(2,0%,100%,.5);
     }
 
     @media (max-width: 900px) and (min-width: 768px) {
@@ -739,6 +770,7 @@ export const ButtonWeb = styled.button`
         display:flex;
         align-items:center;
         justify-content:center;
+        z-index: 5;
 
         span {
             background: linear-gradient(-188deg , #d40073, #6400e7 70%); 
@@ -820,5 +852,26 @@ export const ButtonWebTwo = styled.button`
 export const SiteContainer = styled.div`
     display:flex;
     flex-direction:column;
+
+
+    @media (max-width: 768px) and (min-width: 590px) {
+        margin-top:2rem;
+    }
+
+    @media (max-width: 768px) and (min-width: 590px) {
+        margin-top:2rem;
+    }
+
+    @media (max-width: 590px) and (min-width: 428px) {
+        margin-top:2rem;
+    }
+
+    @media (max-width: 428px) and (min-width: 376px) {
+        margin-top:2rem;
+    }
+
+    @media (max-width: 375px) and (min-width: 320px) {
+        margin-top:2rem;
+    }
 `
 

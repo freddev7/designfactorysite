@@ -9,8 +9,9 @@ export const Nav = styled.nav`
 	position:sticky;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.5rem;
-    font-family: 'Rajdhani';
+	font-size: 1.2rem;
+	font-weight: 400;
+    font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
 	top: 0;
 	z-index: 50;
 	width: 100%;
@@ -43,25 +44,25 @@ export const NavIcon = styled.img`
 	@media screen and (max-width: 1440px) and (min-width: 1240px) {
 		margin-right:37rem;
 	}
-	@media screen and (max-width: 1240px) and (min-width: 1024px) {
+	@media screen and (max-width: 1239px) and (min-width: 1024px) {
 		margin-right:20rem;
 	}
-	@media screen and (max-width: 1024px) and (min-width: 960px) {
+	@media screen and (max-width: 1023px) and (min-width: 960px) {
 		margin-right:20rem;
 	}
-	@media screen and (max-width: 960px) and (min-width: 768px) {
+	@media screen and (max-width: 961px) and (min-width: 769px) {
 		margin-right:40rem;
 	}
-	@media screen and (max-width: 768px) and (min-width: 590px) {
-		margin-right:27rem;
+	@media screen and (max-width: 768px) and (min-width: 591px) {
+		margin-right:28rem;
 	}
-	@media screen and (max-width: 590px) and (min-width: 428px) {
+	@media screen and (max-width: 590px) and (min-width: 429px) {
 		margin-right:18rem;
 	}
 	@media screen and (max-width: 428px) and (min-width: 390px){
 		margin-right:16rem;
 	}
-	@media screen and (max-width: 390px) and (min-width: 320px){
+	@media screen and (max-width: 389px) and (min-width: 320px){
 		margin-right:12rem;
 	}
 `;
@@ -81,7 +82,7 @@ export const MobileIcon = styled.div`
 `;
 
 export const NavMenu = styled.ul`
-	color: #6400e7;
+	color: #fff;
     display: flex;
 	align-items: center;
 	list-style: none;
@@ -104,7 +105,7 @@ export const NavMenu = styled.ul`
 	}
 
 	@media screen and (max-width: 590px) {
-		height:74vh;
+		height:28rem;
 		padding-top: 20%;
 	}
 
@@ -120,7 +121,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
 	height: 80px;
-	margin-left:2rem;
+	margin-left:3rem;
 	cursor: pointer;
 	@media screen and (max-width: 960px) {
 		border-bottom: 0.1px solid #6400e7;
@@ -137,7 +138,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
-	color: #6400e7;
+	color: hsla(2,0%,100%,.5);
 	display: flex;
 	align-items: center;
 	text-decoration: none;

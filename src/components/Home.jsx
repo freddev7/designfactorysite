@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Project, HomeContainer, FirstHomeContainer, Logo3d, BackgroundIcon, TextFirstContainer, HomeImages, ImageContainer, SecondHomeContainer, SecondHomeImages, Logo, BackgroundSketch, TextSecondContainer, CarouselContainer, Slider, ItemCarousel, ThirdHomeContainer, ThirdHomeImages, TextThirdContainer, BackgroundMedias, Media, FourthHomeContainer, VideoContainer, BackgroundWebs, TextFourthContainer, Icons, IconsWeb, ButtonWeb, ButtonWebTwo, SiteContainer } from "../styles/Home.style";
-import logo3d from "../assets/3dlogo.svg";
-import worldicon from "../assets/worldicon.svg";
+import brainstorm from "../assets/brainstorm.svg"
+import worldiconnew from "../assets/worldiconnew.svg";
 import logossection from "../assets/logossection.svg"
 import backgroundicon from "../assets/backgroundicon.svg"
 import logo_jr from "../assets/logo_jr.svg"
@@ -15,7 +15,7 @@ import logo_lm from "../assets/logo_lm.svg"
 import backgroundmedias from "../assets/backgroundmedias.svg"
 import backgroundweb from "../assets/backgroundweb.svg"
 import media from "../assets/media.jpg"
-import videosite from "../assets/videosite.mp4"
+import webvideo from "../assets/webvideo.mp4"
 import { SiAdobeillustrator, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
 import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
 import Aos from 'aos'
@@ -34,15 +34,15 @@ function Home() {
         <HomeContainer>
             <FirstHomeContainer id="about">
                 <TextFirstContainer>
-                    <h1 data-aos="fade-down">Vamos digitalizar o seu negócio!</h1>
-                    <p data-aos="fade-right" >Adotar uma estratégia digital, poderá expandir o alcance e a visibilidade do seu negócio, tornando os produtos ou serviços mais acessíveis, através de conteúdos respectivamente essenciais na internet, transmitindo as informações de maneira eficiente.</p>
+                    <h1 data-aos="fade-right">Vamos digitalizar<br/> o seu negócio!</h1>
+                    <p data-aos="fade-up">Adotar uma estratégia digital, poderá expandir o alcance e a visibilidade do seu negócio, tornando os produtos ou serviços mais acessíveis, através de conteúdos respectivamente essenciais na internet, transmitindo as informações de maneira eficiente.</p>
                 </TextFirstContainer>
                 <HomeImages>
-                    <BackgroundIcon src={worldicon}></BackgroundIcon>
-                    <Logo3d src={logo3d}></Logo3d>
+                    <BackgroundIcon src={worldiconnew}></BackgroundIcon>
+                    <Logo3d src={brainstorm}></Logo3d>
                 </HomeImages>
             </FirstHomeContainer>
-            <ImageContainer><q data-aos="fade-right">JÁ DIVULGOU SUA MARCA HOJE?</q></ImageContainer>
+            <ImageContainer><h1 data-aos="fade-right">JÁ DIVULGOU SUA MARCA HOJE?</h1></ImageContainer>
             <SecondHomeContainer id="logos">
                 <SecondHomeImages>
                     <BackgroundSketch src={backgroundicon}></BackgroundSketch>
@@ -96,7 +96,7 @@ function Home() {
                 <SiteContainer>
                     <VideoContainer>
                         <ReactPlayer
-                            url={videosite}
+                            url={webvideo}
                             width='100%'
                             height='100%'
                             controls={true}
