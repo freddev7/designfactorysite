@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/logo.svg'
-import { FaTimes } from 'react-icons/fa'
+import { FiX } from "react-icons/fi";
 import { CgMenuRight } from 'react-icons/cg'
 import { IconContext } from 'react-icons'
 import { animateScroll as scroll } from 'react-scroll';
@@ -20,7 +20,7 @@ const Navbar = ({ hide }) => {
           <>
             <IconContext.Provider value={{ color: '#5300bc' }}>
               <MobileIcon onClick={() => setShow(!show)}>
-                {show ? <FaTimes /> : <CgMenuRight />}
+                {show ? <FiX /> : <CgMenuRight />}
               </MobileIcon>
             </IconContext.Provider>
             <NavMenu hide={hide} show={show}>

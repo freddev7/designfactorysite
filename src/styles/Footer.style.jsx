@@ -11,7 +11,7 @@ export const FooterContainer = styled.div`
     flex-direction:column;
     align-items:center;
     border-top: 0.1px solid #6400e7;
-    border-image: linear-gradient(to right, #000000 60%, #6400e7, #d40073) 1;
+    border-image: linear-gradient(to left, #000000 60%, #6400e7, #d40073) 1;
     border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
