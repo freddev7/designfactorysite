@@ -6,11 +6,6 @@ export const GlobalStyle = createGlobalStyle`
         padding:0;
         box-sizing:border-box;
 
-    body {
-        background: linear-gradient(to left, #000000 30% , #111111);
-    }
-
-
         .slick-slide img {
             padding: 0 1.3rem;
         }
